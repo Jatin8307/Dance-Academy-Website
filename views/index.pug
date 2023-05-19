@@ -1,0 +1,74 @@
+doctype html
+html
+  head
+    title Prime Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo 
+              img(src="/static/logof.png", alt="logo")
+              | PDA
+            li #[a(href='/') Home ]
+            li #[a(href='/') About ]
+            li #[a(href='/') Services]
+            li #[a(href='/') Class info]
+            li #[a(href='/') BookNow]
+    
+    section#introSection
+      div Welcome to Prime Dance Academy
+      div.tagline Just EAT SLEEP DANCE And REPEAT 
+      div.sale Bookings starting at Rs.999 only.... 
+
+    section#PerksSection
+      h2  Perks of Joining Us
+      div.box 
+
+        div.cards
+          h3  DanceHall 
+          div.card-box
+            div.card-image#hall
+              img(src="/static/images/dancehall.jpg", alt="perk1")
+            div.card-content 
+              p A dance hall is a vibrant and dynamic space that offers numerous perks and benefits to its patrons. Firstly, it serves as a hub for social interaction and community building. 
+
+        div.cards 
+          h3  Certificates
+          div.card-box
+            div.card-image#certi
+              img(src="/static/images/certificates.jpeg", alt="perk2")
+            div.card-content 
+              p Dance certification can broaden career prospects. It may lead to opportunities such as joining professional dance companies, performing in prestigious venues.
+
+
+        div.cards 
+          h3  Equipments 
+          div.card-box
+            div.card-image#equip
+              img(src="/static/images/equipments.jpg", alt="perk3")
+            div.card-content 
+              p Proper equipment not only supports dancers in their technical execution but also ensures their comfort, reduces the risk of injuries.
+
+
+        div.cards 
+          h3  RestRooms 
+          div.card-box
+            div.card-image#rest
+              img(src="/static/images/restrooms.png", alt="perk4")
+            div.card-content 
+              p Well-designed and properly maintained restrooms are essential for personal hygiene, convenience, inclusivity, and public health.
+
+
+    section#sponsorsSection 
+      h2  Our Sponsors
+      div#sponsors
+        img(src="/static/images/sp1.png", alt="",Class="spImage")
+        img(src="/static/images/sp2.png", alt="",Class="spImage")
+        img(src="/static/images/sp3.png", alt="",Class="spImage")
+        img(src="/static/images/sp4.png", alt="",Class="spImage")
+
+    footer#footer  
+        | Copyright © 2019 PrimeDanceAcademy.com | All rights Reserved 
+    script
+      include ../static/inde.js 

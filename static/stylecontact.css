@@ -1,0 +1,42 @@
+h3 {
+    padding: 12px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: bisque;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.Inputclass{
+    padding: 7px;
+    margin: 5px;
+    width: 50%;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 3px solid rgb(153 111 111);
+    
+}
+
+.btn{
+    padding: 8px;
+    margin: 11px;
+    font-weight: bold;
+    color: #820e0e;
+    font-size: 16px;
+    background-color: #daa673;
+    border: 3px solid #996f6f;
+    border-radius: 12px;
+    cursor:pointer;
+    outline: none;
+}
+
+.btn:hover{
+    font-size: 20px;
+
+}
